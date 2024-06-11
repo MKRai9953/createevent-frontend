@@ -1,0 +1,19 @@
+.date_input {
+  width: 215px;
+  border: none;
+  display: flex;
+  padding: 10px;
+  background-color: #e5e7eb;
+  border-radius: 5px;
+}
+
+.date_input > input {
+  outline: none;
+  user-select: none;
+  border: none;
+  flex: 1;
+  height: 20px;
+  background-color: transparent;
+  /* border-radius: 5px; */
+  flex-grow: 1;
+}

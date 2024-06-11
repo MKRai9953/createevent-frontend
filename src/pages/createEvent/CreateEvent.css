@@ -1,0 +1,27 @@
+.eventContianer {
+  border: 1px solid black;
+  background-color: #d1c9c92e;
+  width: 700px;
+  /* height: 700px; */
+
+  border-radius: 20px;
+  padding: 20px;
+  /* overflow-y: auto; */
+}
+
+.dateTimeContainer {
+  display: flex;
+  gap: 5px;
+}
+
+h5 {
+  margin-bottom: 10px;
+}
+
+.notification_reminder {
+  margin-block: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+}

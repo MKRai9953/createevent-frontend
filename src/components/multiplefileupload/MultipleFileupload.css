@@ -1,0 +1,47 @@
+.file-upload-container {
+  background-color: #e5e7eb;
+  padding: 20px;
+  padding-bottom: 0%;
+  border-radius: 5px;
+}
+
+.file-upload-container input[type="file"] {
+  margin-bottom: 10px;
+}
+
+.file-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: transparent; /* Transparent white background */
+  border-radius: 5px;
+}
+
+.check-symbol {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #1890ff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 16px;
+  color: #fff;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  opacity: 0.6; /* Reduced opacity for the check symbol */
+}
+
+.file-name {
+  margin: 0;
+}
+
+.file-size {
+  color: #333; /* Dark gray color for the file size */
+}
+
+.delete-button {
+  cursor: pointer;
+}
